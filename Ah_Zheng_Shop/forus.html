@@ -13,36 +13,16 @@
 <title>阿正的店-關於我們</title>
 </head>
 <style type="text/css">
-	h3{
-		font-weight:bold;
-		font-size:50px;
-	}
-	div{
-		text-align:center;
-		font-weight:bold;
-	}
-	p{
-		font-size:20px;
-		font-weight:bold;
-		text-align:left;
-	}
-	#map {
-        height: 100%;
-		width:auto;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-		
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-	img{
-		height: auto;
-max-width: 100%;
-	}
-    </style>
-	
+#map {
+    height: 100%;
+	width:auto;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+</style>
 
 <body>
 <div id="fb-root"></div>
@@ -88,18 +68,19 @@ max-width: 100%;
 	<div><h3>關於我們</h3></div>
 	
 	<div class="row">
-		<div class="col-sm-4"></div>
-		<div class="col-sm-6">
+		<div class=" col-sm-2"></div>
+		<div class=" col-sm-8">
 			<p>地址:台中市沙鹿區北勢東路530號2F</p>
 			<p>營業時間:</p>
 			<p>星期三~四: 9:00a.m. ~ 5:00p.m.</p>
 			<p>星期五~日: 11:20a.m. ~10:00p.m.</p>
 			<p>電話:04-2631-9762</p>
 		</div>
+		<div class=" col-sm-2"></div>
 	</div>
 	<div class="row">
-		<div class="col-sm-2"></div>
-		<div class="col-sm-8">
+		<div class="col-lg-2"></div>
+		<div class="col-lg-8">
 			<div style=" width:auto; height:300px;">
 				<div id="map"></div>
 				<script>
@@ -123,8 +104,8 @@ max-width: 100%;
 				src="https://maps.googleapis.com/maps/api/js?callback=initMap">
 				</script>
 			</div>
-			<div class="col-sm-3"></div>
 		</div>
+		<div class="col-lg-2"></div>
 	</div>
 	
 </div>
