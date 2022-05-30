@@ -10,7 +10,7 @@ h3{
 	}
 	body{
 		
-		background-image: url( 'table.jpg' );
+		background-image: url( './img/table.jpg' );
 		background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
